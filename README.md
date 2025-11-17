@@ -1,10 +1,20 @@
 # 🛰️ Wildfire Burned Area Estimation with Sentinel-1 SAR
 
+[![Streamlit Demo](https://img.shields.io/badge/Demo-Streamlit-blue)](https://wildfire-burned-area-estimation-with-sentinel-1-sar.streamlit.app/)
+
+https://wildfire-burned-area-estimation-with-sentinel-1-sar.streamlit.app/
+
 ## 📖 Overview
 
 ### Key Features
 
 ## 🌐 Live Demo
+
+```text
+https://wildfire-burned-area-estimation-with-sentinel-1-sar.streamlit.app/
+```
+
+> or run locally with `streamlit run service/app.py` (see below).
 
 ## 🛠️ Installation
 
