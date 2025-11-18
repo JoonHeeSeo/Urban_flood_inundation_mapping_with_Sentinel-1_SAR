@@ -1,8 +1,8 @@
-# 🛰️ Wildfire Burned Area Estimation with Sentinel-1 SAR
+# 🛰️ Urban Flood Inundation Mapping with Sentinel-1 SAR
 
-[![Streamlit Demo](https://img.shields.io/badge/Demo-Streamlit-blue)](https://wildfire-burned-area-estimation-with-sentinel-1-sar.streamlit.app/)
+[![Streamlit Demo](https://img.shields.io/badge/Demo-Streamlit-blue)](https://urban-flood-inundation-mapping-with-sentinel-1-sar.streamlit.app/)
 
-https://wildfire-burned-area-estimation-with-sentinel-1-sar.streamlit.app/
+https://urban-flood-inundation-mapping-with-sentinel-1-sar.streamlit.app/
 
 ## 📖 Overview
 
@@ -11,7 +11,7 @@ https://wildfire-burned-area-estimation-with-sentinel-1-sar.streamlit.app/
 ## 🌐 Live Demo
 
 ```text
-https://wildfire-burned-area-estimation-with-sentinel-1-sar.streamlit.app/
+https://urban-flood-inundation-mapping-with-sentinel-1-sar.streamlit.app/
 ```
 
 > or run locally with `streamlit run service/app.py` (see below).

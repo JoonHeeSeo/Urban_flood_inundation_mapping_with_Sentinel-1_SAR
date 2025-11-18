@@ -6,7 +6,6 @@ from PIL import Image
 
 import streamlit as st
 
-
 # ---------- Utility functions ----------
 
 def load_image_to_gray(file) -> Image.Image:
@@ -55,6 +54,7 @@ def create_overlay(post_img: Image.Image, mask: np.ndarray, alpha: float = 0.5) 
 
 st.set_page_config(
     page_title="Wildfire Burned Area Estimation (Prototype)",
+    page_icon="🛰",
     layout="wide",
 )
 
