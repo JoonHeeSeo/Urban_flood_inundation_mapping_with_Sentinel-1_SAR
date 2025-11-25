@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seoul_boundary_dummy",
+        "note": "Very rough bounding box of Seoul. For prototyping only, not official data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [126.76, 37.41],
+            [127.18, 37.41],
+            [127.18, 37.69],
+            [126.76, 37.69],
+            [126.76, 37.41]
+          ]
+        ]
+      }
+    }
+  ]
+}

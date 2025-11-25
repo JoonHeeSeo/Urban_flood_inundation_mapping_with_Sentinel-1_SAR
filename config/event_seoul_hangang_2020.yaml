@@ -1,0 +1,13 @@
+aoi_file: data/aoi/seoul_hangang_2km_aoi_dummy.geojson
+event_name: seoul_hangang_flood_2020
+sensor: sentinel-1
+
+flood:
+  start: "2020-08-02"
+  end: "2020-08-04"
+
+preflood:
+  candidates:
+    - "2020-07-10"
+    - "2020-07-20"
+    - "2020-09-05"

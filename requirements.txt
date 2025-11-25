@@ -2,6 +2,10 @@ numpy
 pandas
 xarray
 
+geopandas
+shapely
+fiona
+pyyaml
 rasterio
 rioxarray
 geopandas
@@ -20,3 +24,4 @@ contextily
 tqdm
 jupyter
 ipykernel
+

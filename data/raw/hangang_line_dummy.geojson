@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hangang_centerline_dummy",
+        "note": "Very rough line approximating Hangang through Seoul. For prototyping only."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [126.76, 37.5],
+          [126.82, 37.51],
+          [126.9, 37.52],
+          [127.0, 37.53],
+          [127.1, 37.54],
+          [127.18, 37.55]
+        ]
+      }
+    }
+  ]
+}
