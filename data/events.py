@@ -11,7 +11,6 @@ def load_event(name: str):
     with cfg_path.open(encoding="utf-8") as f:
         return yaml.safe_load(f)
 
-# 사용 예시
 if __name__ == "__main__":
     cfg = load_event("seoul_hangang_2020")
     print(cfg["flood"]["start"], cfg["flood"]["end"])
