@@ -11,3 +11,4 @@ pip freeze > requirements.txt
 source venv/Scripts/activate
 
 python -m data.aoi_builder
+python -m data.download_sentinel1
