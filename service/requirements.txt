@@ -2,3 +2,7 @@ streamlit
 numpy
 Pillow
 matplotlib
+folium
+streamlit-folium
+rasterio
+geopandas
