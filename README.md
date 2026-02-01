@@ -1,8 +1,12 @@
 # Urban Flood Inundation Mapping with Sentinel-1 SAR
 
-A personal project to detect and visualize urban flood areas in Seoul (Han River region) using Sentinel-1 SAR imagery. This is mainly a learning exercise to get familiar with SAR data processing and flood detection techniques.
+[![Streamlit Demo](https://img.shields.io/badge/Demo-Streamlit-blue)](https://urban-flood-inundation-mapping-with-sentinel-1-sar.streamlit.app/)
 
-## What it does
+Detect and visualize urban flood areas in Seoul (Han River region) using Sentinel-1 SAR imagery.
+
+**Live demo:** https://urban-flood-inundation-mapping-with-sentinel-1-sar.streamlit.app/
+
+## Features
 
 - Detects flooded areas by comparing SAR backscatter between normal and flood periods
 - Uses change detection: water shows up as dark pixels in SAR (low backscatter), so newly flooded areas can be identified when backscatter drops significantly
