@@ -33,17 +33,14 @@ Detect and visualize urban flood areas in Seoul (Han River region) using Sentine
 ### 1. Install dependencies
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-pip install -r service/requirements.txt
+uv sync
 ```
 
 ### 2. Generate sample data (no Copernicus account needed)
 
 ```bash
 cd data
-python generate_sample_data.py
+uv run python generate_sample_data.py
 ```
 
 This creates synthetic SAR images based on actual Han River geometry. Good enough for testing the pipeline.
@@ -51,7 +48,7 @@ This creates synthetic SAR images based on actual Han River geometry. Good enoug
 ### 3. Run flood detection
 
 ```bash
-python flood_detection.py
+uv run python flood_detection.py
 ```
 
 Outputs:
@@ -61,7 +58,7 @@ Outputs:
 ### 4. Launch the dashboard
 
 ```bash
-streamlit run service/app.py
+uv run streamlit run service/app.py
 ```
 
 ## How it works
@@ -97,7 +94,7 @@ If you want to use actual satellite imagery instead of sample data:
 
 1. Create account at [Copernicus Dataspace](https://dataspace.copernicus.eu/)
 2. Copy `config/.env.example` to `config/.env` and fill in credentials
-3. Run `python data/download_sentinel1.py`
+3. Run `uv run python data/download_sentinel1.py`
 
 Note: Real SAR data requires preprocessing (calibration, speckle filtering, terrain correction). The sample data skips this step.
 

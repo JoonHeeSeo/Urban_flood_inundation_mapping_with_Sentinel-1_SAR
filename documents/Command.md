@@ -5,10 +5,7 @@ https://overpass-turbo.eu/
 
 ## 명령어
 
-pip install -r requirements.txt
-pip freeze > requirements.txt
+uv sync
 
-source venv/Scripts/activate
-
-python -m data.aoi_builder
-python -m data.download_sentinel1
+uv run python -m data.aoi_builder
+uv run python -m data.download_sentinel1

@@ -1,0 +1,24 @@
+[project]
+name = "urban-flood-inundation-mapping"
+version = "0.1.0"
+description = "Detect and visualize urban flood areas in Seoul using Sentinel-1 SAR imagery"
+requires-python = ">=3.12"
+dependencies = [
+    "folium",
+    "geopandas>=1.1.1",
+    "matplotlib",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "pillow>=12.0.0",
+    "pyarrow>=21.0.0",
+    "pyogrio>=0.11.1",
+    "pyproj>=3.7.2",
+    "pyyaml>=6.0.3",
+    "rasterio",
+    "requests>=2.32.5",
+    "sentinelsat>=1.2.1",
+    "shapely>=2.1.2",
+    "streamlit",
+    "streamlit-folium",
+    "tqdm>=4.67.1",
+]
