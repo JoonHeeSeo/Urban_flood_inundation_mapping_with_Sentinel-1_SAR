@@ -29,11 +29,7 @@
 **기본 라이브러리**
 
 ```bash
-pip install \
-  numpy pandas xarray rasterio rioxarray \
-  geopandas shapely pyproj \
-  matplotlib plotly \
-  streamlit folium streamlit-folium
+uv sync
 ```
 
 SAR 쪽은 난이도에 따라 2옵션으로 생각하면 편합니다.
@@ -87,7 +83,7 @@ SAR 쪽은 난이도에 따라 2옵션으로 생각하면 편합니다.
   - 조건: 플랫폼, 센서모드, 날짜 범위, AOI(GeoJSON) 등
 
 ```bash
-pip install sentinelsat
+uv add sentinelsat
 ```
 
 ---
@@ -145,7 +141,7 @@ Python에서 이걸 읽을 때:
    - 자동: Otsu 등 (라이브러리: `scikit-image`의 `threshold_otsu`)
 
 ```bash
-pip install scikit-image
+uv add scikit-image
 ```
 
 4. **후처리**
@@ -222,7 +218,7 @@ pip install scikit-image
 **필수 라이브러리**
 
 ```bash
-pip install streamlit streamlit-folium folium geopandas rasterio
+uv add streamlit streamlit-folium folium geopandas rasterio
 ```
 
 - Raster(침수 mask, backscatter):
